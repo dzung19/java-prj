@@ -30,7 +30,6 @@ public class South extends JPanel implements ActionListener {
 	Edge[] edges = new Edge[numNode * numNode];
 	MaxFlow m;
 	MaxFlowForkFulkerson mf;
-	Kruskal k;
 
 	public South(Graph graph) {
 		this.graph = graph;
@@ -119,9 +118,6 @@ public class South extends JPanel implements ActionListener {
 						mf = new MaxFlowForkFulkerson(edges, graph.getNumNode(), graph.getNumEdge(), graph.source, graph.sink);
 						graph.maxflow = mf.max_flow;
 						graph.final_edges = mf.paths.toArray(new Edge[0]);
-					} else if (graph.getChoice().equals("Kruskal")) {
-						k = new Kruskal(edges, graph.getNumNode(), graph.getNumEdge());
-						graph.final_edges = k.edgeOutput;
 					}
 
 					graph.hasEnd = true;

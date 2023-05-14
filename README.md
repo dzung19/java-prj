@@ -4,4 +4,5 @@ Trong bài toán này thì ta sẽ sử dụng đồ thị có hướng có tr�
 
 Thuật toán tham làm và Ford-Fulkerson để giải quyết bài toán  maxflow trong đồ thị.
 File maxflow sử dụng thuật toán tham lam cơ bản.
-File MaxFlowFordFulkerson sử dụng thuật toán Ford-Fulkerson với thuật toán bfs tìm đường đi nhỏ nhất
+File MaxFlowFordFulkerson sử dụng thuật toán Ford-Fulkerson với thuật toán bfs tìm đường đi nhỏ nhất.
+Các file còn lại để vẽ đồ hoạ biểu diễn 2 thuật toán.
