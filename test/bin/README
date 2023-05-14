@@ -1,0 +1,2 @@
+Các thuật toán có thời gian chạy tương đương nhau với số phần tử của mảng nhỏ tuy nhiên khi n lớn dần 
+thì thời gian chạy của các thuật toán quickSort, MergeSort, HeapSort là nhanh hơn.
