@@ -1,4 +1,4 @@
-package test;
+package algo;
 
 public class Edge {
 	private int node1;
